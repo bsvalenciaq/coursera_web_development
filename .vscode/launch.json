@@ -4,10 +4,12 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
+
         {
             "type": "pwa-chrome",
             "request": "launch",
-            "name": "Open Headings.html",
+            "name": "Open unordered_list.html",
             "file": "c:\\Users\\mckle\\coursera\\coursera_web_development\\Headings.html"
         }
     ]
