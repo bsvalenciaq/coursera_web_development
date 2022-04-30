@@ -1,0 +1,33 @@
+<!DOCTYPE 
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Element wit class selector</title>
+        <style> 
+        .higlight { 
+            background-color: green;
+        }
+        p.higlight {font-style: italic;}
+
+        /*all elements with class 'highlight' as
+        well as with class 'mainpoint'*/
+        .higlight.mainpoint{ 
+            color: red;
+            background-color: black;
+        }
+        </style>
+
+    </head>
+
+    <body>
+        <h1 class="higlight">Element with class Selector</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Possimus amet alias est? Nobis cum quasi at soluta odit,
+            maiores quaerat dolores espedicta exnemo ea repellendus
+            dolorem sed macime quos?
+        </p>
+        <p class="higlight">This is p with CLASS = "higlight"</p>
+        <div class="mainpoint higlight"> This is the main point of the
+             entire article</div>
+    </body>
+</html>
