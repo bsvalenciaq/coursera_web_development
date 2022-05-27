@@ -10,8 +10,8 @@
         {
             "type": "pwa-chrome",
             "request": "launch",
-            "name": "Open css-sintx.html",
-            "file": "c:\\Users\\mckle\\coursera\\coursera_web_development\\css-sintx.html"
+            "name": "index1.html",
+            "file": "C:\\Users\\mckle\\coursera\\coursera_web_development\\module2-solution\\index1.html"
         }
     ]
 }
